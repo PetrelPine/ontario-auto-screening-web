@@ -6,7 +6,7 @@ Ontario-auto-screening Android app at https://github.com/PetrelPine/ontario-auto
 
 ## How to access the website
 
-The Ontario-auto-screening website is published at https://petrelpine.github.io/ontario-auto-screening-web/index.html (using GitHub Pages)
+**The Ontario-auto-screening website is published at https://petrelpine.github.io/ontario-auto-screening-web/index.html (using GitHub Pages)**
 
 ## About screening confirmation
 
