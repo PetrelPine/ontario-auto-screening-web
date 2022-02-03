@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- @Github: https://github.com/PetrelPine/ontario-auto-screening-web -->
+    <head>
+        <meta charset="utf-8">
+        <title>Screening Confirmation</title>
+        <style>
+            body {
+                font: normal 20px "Comic Sans MS", Arial, sans-serif;
+                margin: auto;
+                padding: 40px;
+                padding-top: 10px;
+                padding-bottom: 100px;
+                background-color: cornsilk;
+            }
+            .div_btn {
+                position: fixed;
+                height: 75px;
+                bottom: 5px;
+                left: 10%;
+                right: 10%;
+                width: 80%;
+            }
+            button {
+                font: normal 40px "Times News Roman", Arial, sans-serif;
+                height: 100%;
+            }
+            .decline_btn {
+                color: red;
+                float: left;
+                width: 50%;
+            }
+            .confirm_btn {
+                color: green;
+                float: right;
+                width: 50%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 style="color: orange;">Screening Confirmation</h1>
+        <p style="font-size: 25px;"><strong>I confirm that ALL the following information is CORRECT and I am RESPONSIBLE for the confirmation and the information I provided.</strong>
+        <ol>
+            <li>I am taking this screening as a student/child.</li>
+            <li>In the last 14 days, I did NOT travel outside of Canada and was NOT told to quarantine.</li>
+            <li>In the last 14 days, I did NOT travel outside of Canada and was NOT told to not attend school/child care.</li>
+            <li>In the last 10 days, I have NOT experienced any of these symptoms: fever and/or chills, cough or barking cough (croup), shortness of breath, decrease or loss of taste or smell, muscle aches/joint pain, extreme tiredness, sore throat, runny or stuffy/congested nose, headache, nausea, vomiting, and/or diarrhea.</li>
+            <li>In the last 10 days, I have NOT been tested positive on a lab-based PCR test, rapid antigen test, or home-based self-testing kit.</li>
+            <li>I do NOT live with someone who is currently isolating because of a positive COVID-19 test.</li>
+            <li>I do NOT live with someone who is currently isolating because of COVID-19 symptoms.</li>
+            <li>I do NOT live with someone who is waiting for COVID-19 test results.</li>
+            <li>There are NOT any doctors, health care providers, or public health units told me that I should currently be isolating (staying at home).</li>
+            <li>I have NOT been identified as a “close contact” of someone who currently has COVID-19 and been advised to self-isolate.</li>
+        </ol>
+        <p style="color: grey;">*This project is posted on Github <a target="_blank" href="https://github.com/PetrelPine/ontario-auto-screening-web">(https://github.com/PetrelPine/ontario-auto-screening-web)</a></p>
+    </body>
+
+    <footer>
+        <div class="div_btn">
+            <a target="_self" href="./not_approved.html"><button class="decline_btn">DECLINE</button></a>
+            <a target="_self" href="./approved.html"><button class="confirm_btn">CONFIRM</button></a>
+        </div>
+    </footer>
+</html>
