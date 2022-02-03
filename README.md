@@ -2,6 +2,10 @@
 
 Ontario-auto-screening Android app at https://github.com/PetrelPine/ontario-auto-screening-android
 
+## How to access the website
+
+The Ontario-auto-screening website is published at https://petrelpine.github.io/ontario-auto-screening-web/index.html
+
 ## About screening confirmation
 
 [Official Covid-19 school screening website](https://covid-19.ontario.ca/school-screening/)
