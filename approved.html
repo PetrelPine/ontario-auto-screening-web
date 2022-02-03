@@ -2917,8 +2917,8 @@
         </style>
 
         <script>
-            var ref = document.referrer;
-            if (ref !== "index.html") {
+            // 使网页只能通过跳转访问
+            if (document.referrer !== "https://petrelpine.github.io/ontario-auto-screening-web/index.html") {
                 window.location.href = "./index.html";
             }
 
